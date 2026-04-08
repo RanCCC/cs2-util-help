@@ -1,0 +1,125 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #e0e0e0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.backLink {
+  color: #5b6eae;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.meta {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+
+.videoSection {
+  margin-bottom: 2rem;
+}
+
+.video {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 6px;
+  background: #000;
+}
+
+.screenshotsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.screenshotCard {
+  background: #1e1e2e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.screenshotLabel {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #333;
+}
+
+.screenshotImage {
+  width: 100%;
+  display: block;
+}
+
+.loadingBox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+  padding: 4rem 1rem;
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #333;
+  border-top-color: #5b6eae;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.errorBox {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #e74c3c;
+}
+
+.errorHint {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.retryBtn {
+  margin-top: 1rem;
+  background: #252540;
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.retryBtn:hover {
+  background: #3a1a1a;
+  color: #fff;
+}

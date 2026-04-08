@@ -1,0 +1,46 @@
+{
+  "maps": [
+    {
+      "id": "dust2",
+      "name": "Dust 2",
+      "folder": "dust2",
+      "image": "map.webp"
+    },
+    {
+      "id": "mirage",
+      "name": "Mirage",
+      "folder": "mirage",
+      "image": "map.webp"
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "folder": "inferno",
+      "image": "map.webp"
+    },
+    {
+      "id": "nuke",
+      "name": "Nuke",
+      "folder": "nuke",
+      "image": "map.webp"
+    },
+    {
+      "id": "ancient",
+      "name": "Ancient",
+      "folder": "ancient",
+      "image": "map.webp"
+    },
+    {
+      "id": "anubis",
+      "name": "Anubis",
+      "folder": "anubis",
+      "image": "map.webp"
+    },
+    {
+      "id": "overpass",
+      "name": "Overpass",
+      "folder": "overpass",
+      "image": "map.webp"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "cs2-util-help",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interactive CS2 utility lineup guide — view, create, and share in-game utility lineups on interactive maps",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node --watch server.js",
+    "build": "vite build",
+    "start": "node server.js",
+    "stop": "kill-port 3001",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "browser-image-compression": "^2.0.2",
+    "express": "^5.2.1",
+    "fflate": "^0.8.2",
+    "multer": "^2.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^27.0.1",
+    "kill-port": "^2.0.1",
+    "vite": "^6.4.1",
+    "vitest": "^4.1.2"
+  }
+}
